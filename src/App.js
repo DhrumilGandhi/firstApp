@@ -1,15 +1,15 @@
 import React, { useState } from 'react';
 
 const App = () => {
-  let [inc, setInc] = useState(0);
+  const [inc, setInc] = useState(0);
 
-  let a = () => {
+  const a = () => {
     setInc(inc + 1);
   }
-  let b = () => {
+  const b = () => {
     if (inc <= 0) {
       alert("O thi niche nai jay bhai");
-      inc = 0;
+      setInc(0);
     }
     else {
       setInc(inc - 1);
