@@ -23,4 +23,8 @@ ul {
   .link:hover {
     background-color: #111;
   }
+  .nlink {
+    color: yellow;
+    border-bottom: 1px solid red;
+  }
   
